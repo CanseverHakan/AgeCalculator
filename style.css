@@ -1,0 +1,95 @@
+body {
+    background-color: lightgray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.container {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    margin-top: 120px;
+    height: 30rem;
+    width: 40rem;
+    border-radius: 20px;
+    border-bottom-right-radius: 150px;
+}
+
+.btn-arrow {
+    border-radius: 50px;
+    background-color:  hsl(259, 100%, 65%);
+    padding: 10px;
+    border-color: hsl(259, 100%, 65%);
+    margin-left: 500px;
+    margin-top: 10px;
+}
+
+.dateInput {
+    display: flex;
+    flex-direction: row;
+    margin-left: 20px;
+    margin-top: 50px;
+}
+
+input {
+    display: flex;
+    flex-direction: row;
+    font-family: 'Poppins', sans-serif;
+    color: black;
+    font-size: 20px;
+    padding-left: 27px;
+    font-weight: 800;
+    margin-left: 20px;
+    height: 40px;
+    width: 105px;
+    border: solid;
+    border-color: rgba(211, 211, 211, 0.642);
+    border-radius: 5px;
+    border-width: thin;
+
+}
+
+input:focus {
+    outline-color: hsl(259, 100%, 65%);
+}
+
+
+span {
+    margin-left: 20px;
+    font-family: 'Poppins', sans-serif;
+    color: rgba(0, 0, 0, 0.571);
+    font-weight: 400;
+    font-size: small;
+    padding-bottom: 20px;
+}
+
+
+
+
+.calc {
+    display: flex;
+    flex-direction: column;
+    margin-left: 30px;
+    margin-top: -40px;
+    padding-top: 20px;
+    margin-right: 140px;
+    border-top: 2px solid rgba(211, 211, 211, 0.642);
+   
+}
+
+.years-span,.months-span,.days-span {
+    color: black;
+    font-weight: 800;
+    font-size: 60px;
+    font-family: 'Poppins', sans-serif;
+    font-style: italic;
+}
+
+.years-calc,.months-calc,.days-calc {
+    color: hsl(259, 100%, 65%);
+    font-weight: 900;
+    font-size: 60px;
+    font-style: italic;
+}
